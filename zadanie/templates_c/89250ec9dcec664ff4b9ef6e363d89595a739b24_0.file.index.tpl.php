@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-05-23 22:02:28
+/* Smarty version 3.1.32, created on 2018-05-24 22:41:48
   from 'C:\xampp\htdocs\frontend\zadanie\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b05c8d4c9e638_81085978',
+  'unifunc' => 'content_5b07238c609d80_29132150',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '89250ec9dcec664ff4b9ef6e363d89595a739b24' => 
     array (
       0 => 'C:\\xampp\\htdocs\\frontend\\zadanie\\templates\\index.tpl',
-      1 => 1527105745,
+      1 => 1527194506,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5b05c8d4c9e638_81085978 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b07238c609d80_29132150 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -61,10 +61,12 @@ foreach ($_from as $_smarty_tpl->tpl_vars['keyvar']->value => $_smarty_tpl->tpl_
                     </div>
                     <img src="./<?php echo $_smarty_tpl->tpl_vars['itemvar']->value['image'];?>
 " alt="product" class="img img-fluid">
-                    <h3 class="product-title text-center"><?php echo $_smarty_tpl->tpl_vars['itemvar']->value['prod-title'];?>
+                    <span class="product-title-container">
+                        <h3 class="product-title text-center"><?php echo $_smarty_tpl->tpl_vars['itemvar']->value['prod-title'];?>
 </h3>
+                    </span>
                     <a href="<?php echo $_smarty_tpl->tpl_vars['itemvar']->value['link'];?>
-" role="button" class="btn btn-primary">kup teraz</a>
+" role="button" class="btn add-to-cart-product">kup teraz</a>
                 </div>
             <?php
 }

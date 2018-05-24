@@ -25,8 +25,10 @@
                         {/if}
                     </div>
                     <img src="./{$itemvar['image']}" alt="product" class="img img-fluid">
-                    <h3 class="product-title text-center">{$itemvar['prod-title']}</h3>
-                    <a href="{$itemvar['link']}" role="button" class="btn btn-primary">kup teraz</a>
+                    <span class="product-title-container">
+                        <h3 class="product-title text-center">{$itemvar['prod-title']}</h3>
+                    </span>
+                    <a href="{$itemvar['link']}" role="button" class="btn add-to-cart-product">kup teraz</a>
                 </div>
             {/foreach}
 

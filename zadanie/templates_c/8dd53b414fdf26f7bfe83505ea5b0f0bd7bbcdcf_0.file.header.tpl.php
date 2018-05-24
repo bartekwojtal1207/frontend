@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-05-23 21:04:31
+/* Smarty version 3.1.32, created on 2018-05-24 21:34:06
   from 'C:\xampp\htdocs\frontend\zadanie\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b05bb3f5577e8_97762286',
+  'unifunc' => 'content_5b0713ae9d5418_14318418',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8dd53b414fdf26f7bfe83505ea5b0f0bd7bbcdcf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\frontend\\zadanie\\templates\\header.tpl',
-      1 => 1527102057,
+      1 => 1527190438,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b05bb3f5577e8_97762286 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b0713ae9d5418_14318418 (Smarty_Internal_Template $_smarty_tpl) {
 ?><HTML>
 <HEAD>
 
@@ -33,6 +33,7 @@ function content_5b05bb3f5577e8_97762286 (Smarty_Internal_Template $_smarty_tpl)
 <TITLE>Zadanie sprawdzające frontend Developer – Upland</TITLE>
 
 
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
 

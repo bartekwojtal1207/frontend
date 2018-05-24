@@ -12,6 +12,7 @@
 {*styles*}
 
 {*bootstrap z racji ze zadanie testowe dodalem z cdn*}
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
 

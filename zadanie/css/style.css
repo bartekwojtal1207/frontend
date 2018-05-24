@@ -15,15 +15,27 @@ h1 {
     color: rgb(109, 109, 109);
     line-height: 1.2;
 }
+@media screen and ( min-width: 1300px){
 
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+}
 section {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 30px;
+
 }
 
 .product {
-    border:1px solid red;
+    /*border:1px solid red;*/
     margin-right: 4px;
+    overflow: hidden;
+    border-style: solid;
+    border: 1px solid rgb(226, 226, 226) ;
+    border-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.06);
 }
 
 .price-box {
@@ -51,11 +63,13 @@ section {
 }
 
 .product-title {
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Ubuntu";
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.2;
+    align-self: center;
+    width: 100%;
 }
 .rabat {
     border-radius: 50%;
@@ -65,5 +79,37 @@ section {
     font-family: "Ubuntu";
     color: #FFF;
     line-height: 1;
+    font-weight: bold;
 }
-img { margin-top: 10px; }
+img { margin-top: 10px; margin-bottom: 15px; }
+
+.add-to-cart-product {
+    position: absolute;
+    height: 50px;
+    top: 380px;
+    left: 0;
+    border-radius: 0;
+    -webkit-transition: top 2s; /* For Safari 3.1 to 6.0 */
+    transition: top 2s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    border: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 40px;
+}
+.product:hover > .add-to-cart-product {
+    top: 319px;
+    color: #000;
+}
+
+.product-title-container {
+    display: flex;
+    min-height: 50px;
+}
+
+
