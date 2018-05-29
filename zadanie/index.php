@@ -18,4 +18,5 @@ $smarty->assign("products", array(array("price" => "200", "link" => "/tshirts/1-
                                   array("price" => "900", "link" => "/evening-dresses/8-sleeves-tshirt.html", "image" => "img/product6.jpg", "prod-title" => "sleeves-tshirt","discount" => "15")
     ));
 
+
 $smarty->display('index.tpl');
